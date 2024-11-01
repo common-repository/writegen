@@ -1,0 +1,1267 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WriteGen\n"
+"POT-Creation-Date: 2023-08-21 10:19+0600\n"
+"PO-Revision-Date: 2023-08-21 10:18+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: writegen.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:25
+msgid "AI widget"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:26
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:453
+msgid "Settings"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:27
+msgid "Help / Resourcest"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:36
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:39
+msgid "Write Using Templates"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:49
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:50
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:34
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:35
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:35
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:35
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:35
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:35
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:35
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:35
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:35
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:35
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:35
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:35
+msgid "Blog Widget"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:50
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:51
+msgid ""
+"Enhance blog article for SERP success — from keywords to ranking content."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:74
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:66
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:35
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:36
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:36
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:36
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:36
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:36
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:35
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:35
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:36
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:36
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:36
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:36
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:36
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:36
+msgid "WooCommerce Widget"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:75
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:67
+msgid ""
+"Acquire SEO-optimized, conversion-friendly content for WooCommerce Product."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:99
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:81
+msgid "WriteGen Mode"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:100
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:82
+msgid "Create anything you desire using Writegen Mode assistance."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:124
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:96
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:37
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:38
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:56
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:38
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:56
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:38
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:38
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:56
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:38
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:37
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:37
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:38
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:38
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:38
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:38
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:38
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:38
+msgid "Blog Title"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:125
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:97
+msgid "Craft SEO-friendly titles effortlessly with our title generator tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:149
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:111
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:38
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:39
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:39
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:39
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:39
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:39
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:38
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:38
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:39
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:39
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:39
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:39
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:39
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:39
+msgid "Blog Content"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:150
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:112
+msgid ""
+"Effortlessly create comprehensive and high-quality content with our content "
+"generation tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:174
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:126
+msgid "Blog Outline"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:175
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:127
+msgid ""
+"Effortlessly create outlines for your content with our outline generation "
+"feature."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:199
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:141
+msgid "Blog Tags Generate"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:200
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:142
+msgid "Effortlessly create trending blog tags with our tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:224
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:156
+msgid "Rewrite Content"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:225
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:157
+msgid "Effortlessly enhance and refresh your content with our rewriting tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:249
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:171
+msgid "Brief Generate"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:250
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:172
+msgid ""
+"Effortlessly generate user-friendly project briefs with our specialized "
+"brief generation tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:274
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:186
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:44
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:44
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:44
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:44
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:44
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:43
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:43
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:44
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:44
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:44
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:44
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:44
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:44
+msgid "Paragraph Compression"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:275
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:187
+msgid ""
+"Simplify paragraphs while retaining key content with our paragraph "
+"compression tool."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:299
+msgid "Related Keywords"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:300
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:202
+msgid "Easily find related keywords with our smart tool for better content."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:324
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:216
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:45
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:46
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:46
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:46
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:46
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:46
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:45
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:45
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:46
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:46
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:46
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:46
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:46
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:46
+msgid "Find Question"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:325
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:217
+msgid ""
+"Seamlessly discover questions within content using our Find Question feature."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:349
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:231
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:46
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:47
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:47
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:47
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:47
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:47
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:46
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:46
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:47
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:47
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:47
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:47
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:47
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:47
+msgid "Short Story"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:350
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:232
+msgid "Craft concise and engaging short stories with impactful narratives."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:374
+msgid "Woocommerce Product Title"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:375
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:247
+msgid ""
+"Craft catchy WooCommerce product titles for higher visibility and engagement."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:399
+msgid "Woocommerce Short Description"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:400
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:262
+msgid ""
+"Compose succinct and compelling short descriptions for your WooCommerce "
+"products."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:424
+msgid "Woocommerce Long Description"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:425
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:277
+msgid ""
+"Craft detailed and engaging long product descriptions for your WooCommerce "
+"offerings."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:440
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:487
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:504
+msgid "Save Settings"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:457
+msgid "OpenAI API key"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:458
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:484
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:488
+msgid "sk-...xxxzzzJDmbnnnGEoooxxxx"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:462
+msgid "Generate API key"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:465
+msgid "Usage details"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:473
+msgid "on"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:474
+msgid "off"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:478
+msgid "Enable SERP Analytics"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:483
+msgid "API Login"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:492
+msgid "Api Login"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:495
+msgid "Usage"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:530
+msgid "Documentation"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:531
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:568
+msgid ""
+"We have created full-proof documentation for you. It will help you to "
+"understand how our plugin works."
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:534
+msgid "Get Now"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:547
+msgid "Need Help?"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:548
+msgid ""
+"Please do not hesitate to contact us if you require assistance or want a "
+"free store set-up. We will assist you"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:551
+msgid "Get Support"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:567
+msgid "Missing any Feature?"
+msgstr ""
+
+#: inc/Admin/View/Dashboard/wrig-dashboard-template.php:571
+msgid "Request Feature"
+msgstr ""
+
+#: inc/Admin/View/Widgets/Common/wrig-widget-footer-template.php:24
+#: inc/Admin/View/Widgets/Common/wrig-widget-footer-template.php:38
+msgid "Cancel"
+msgstr ""
+
+#: inc/Admin/View/Widgets/Common/wrig-widget-footer-template.php:25
+#: inc/Admin/View/Widgets/Common/wrig-widget-footer-template.php:39
+msgid "Next"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:201
+msgid "Related Keyword"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:246
+msgid "WooCommerce Product Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:261
+msgid "WooCommerce Short Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-all-widget-template.php:276
+msgid "WooCommerce Long Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:18
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:19
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:19
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:19
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:19
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:19
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:19
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:19
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:19
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:19
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:19
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:19
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:19
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:19
+msgid "Select template"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:28
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:29
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:29
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:29
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:29
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:29
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:29
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:29
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:29
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:29
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:29
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:29
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:29
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:29
+msgid "Choose a template based on your basic requirements."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:36
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:37
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:37
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:37
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:37
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:37
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:36
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:36
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:37
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:37
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:37
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:37
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:37
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:37
+msgid "WriteGen mode"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:39
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:40
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:40
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:40
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:40
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:40
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:39
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:39
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:40
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:40
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:40
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:40
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:40
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:40
+msgid "Blog Outlines"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:40
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:41
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:41
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:41
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:41
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:41
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:40
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:40
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:41
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:41
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:41
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:41
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:41
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:41
+msgid "Blog Tags"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:41
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:42
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:42
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:42
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:42
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:42
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:41
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:41
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:42
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:42
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:42
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:42
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:42
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:42
+msgid "Blog Rewrite"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:42
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:43
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:42
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:42
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:43
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:43
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:43
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:43
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:43
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:43
+msgid "Blog Brief"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:44
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:45
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:45
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:45
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:45
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:45
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:44
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:44
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:45
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:45
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:45
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:45
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:45
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:45
+msgid "Related Tags"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:47
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:48
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:47
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:47
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:48
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:56
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:48
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:56
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:48
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:48
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:48
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:233
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:427
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:48
+msgid "Product Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:49
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:49
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:49
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:49
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:49
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:48
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:48
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:49
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:49
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:49
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:49
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:49
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:49
+msgid "Product Long Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:49
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:50
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:50
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:50
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:50
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:50
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:49
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:49
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:50
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:50
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:50
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:50
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:50
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:50
+msgid "Product Short Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:55
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:56
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:55
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:56
+msgid "Your Content"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:65
+msgid "Provide the context of your blog brief."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:70
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:71
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:71
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:71
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:71
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:71
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:48
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:68
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:352
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:372
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:566
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:70
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:70
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:71
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:71
+msgid "e.g. bean coffee, best coffee mak..."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:81
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:82
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:82
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:81
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:82
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:82
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:171
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:383
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:597
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:81
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:81
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:102
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:102
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:102
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:82
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:82
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:79
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:279
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:474
+msgid "Language"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:91
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:92
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:92
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:91
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:92
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:92
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:90
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:181
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:393
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:607
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:91
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:91
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:112
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:112
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:112
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:92
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:92
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:89
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:289
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:484
+msgid "Select your preferred input and output languages."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:111
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:112
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:112
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:111
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:112
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:112
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:201
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:413
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:627
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:111
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:111
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:132
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:132
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:132
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:112
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:112
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:109
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:309
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:504
+msgid "Tone"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:121
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:122
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:122
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:121
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:122
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:122
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:211
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:423
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:637
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:121
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:121
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:142
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:142
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:142
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:122
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:122
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:119
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:319
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:514
+msgid "Specify the desired tone of voice for the outputs."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:147
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:148
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:148
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:147
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:148
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:148
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:238
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:450
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:147
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:147
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:168
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:168
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:168
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:148
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:148
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:146
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:346
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:542
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:82
+msgid "Writing Style"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:157
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:158
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:158
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:157
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:158
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:158
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:248
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:460
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:674
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:157
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:157
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:178
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:178
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:178
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:158
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:156
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:356
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:552
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:92
+msgid "Indicate your preferred writing style for Writegen."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:177
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:282
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:494
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:177
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:112
+msgid "Max Results"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:187
+msgid "Maximum brief you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-brief-template.php:213
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:214
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:214
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:212
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:214
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:214
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:213
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:213
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:234
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:234
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:234
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:214
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:214
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:148
+msgid "Write"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:66
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:347
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:561
+msgid "Enter the title of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:178
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:694
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:572
+msgid "Min Length"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-content-template.php:188
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:187
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:504
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:187
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:208
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:208
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:188
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:386
+msgid "Maximum content you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:66
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:66
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:66
+msgid "Enter the title or topic of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:178
+msgid "Max Result"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-outlines-template.php:188
+msgid "Maximum outlines you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-rewrite-template.php:177
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:198
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:198
+msgid "Length"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:178
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:178
+msgid "Max Tags"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-tags-template.php:188
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:158
+msgid "Maximum tags you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:56
+msgid "keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:66
+msgid "Enter the keywords of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:178
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:198
+msgid "Max Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-title-template.php:188
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:292
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:208
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:187
+msgid "Maximum title you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:21
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:337
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:551
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:20
+msgid "Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:22
+msgid "Meta description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:23
+msgid "Content"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:33
+msgid "Search Keyword"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:43
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:367
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:65
+msgid "Enter the focus keyword or topic of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:53
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:253
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:448
+msgid "Context (Optional)"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:63
+msgid "Provide the context of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:80
+msgid "Location"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:113
+msgid "Max Keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:123
+msgid "Maximum keyword you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:149
+msgid "Analysis keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:254
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:466
+msgid "Default"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:255
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:467
+msgid "Formal"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:256
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:468
+msgid "Informal"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:257
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:469
+msgid "Technical"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:258
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:470
+msgid "Creative"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:259
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:471
+msgid "Professional"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:260
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:472
+msgid "Persuasive"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:261
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:473
+msgid "Narrative"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:262
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:474
+msgid "Humorous"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:263
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:475
+msgid "Educational"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:264
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:476
+msgid "Scientific"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:265
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:477
+msgid "Expository"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:266
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:478
+msgid "Descriptive"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:267
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:479
+msgid "Analytical"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:268
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:480
+msgid "Comparative"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:269
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:481
+msgid "Argumentative"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:270
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:482
+msgid "Instructional"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:271
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:483
+msgid "Editorial"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:272
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:484
+msgid "Review"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:273
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:485
+msgid "Personal"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:274
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:486
+msgid "Reflective"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:319
+msgid "Generate Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:357
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:56
+msgid "Focus Keyword"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:531
+msgid "Generate Meta Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:571
+msgid "Meta Description (Optional)"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:581
+msgid "Enter the metadescription of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:586
+msgid "e.g. bean coffee ..."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:664
+msgid "Writing style"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:704
+msgid "Min content you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-blog-widget-template.php:731
+msgid "Generate Content"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:55
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:56
+msgid "Your Keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:177
+msgid "Max Question"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-find-question-template.php:187
+msgid "Maximum question you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:65
+msgid "Enter the content of your paragraph compression."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-paragraph-compression-template.php:177
+msgid "Compression Ratio"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:66
+msgid "Enter the product title of product long description."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:71
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:71
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:71
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:48
+msgid "Enter Your Keyword here"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:76
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:76
+msgid "Product keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:86
+msgid "Provide the keyword of your product."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-long-desc-template.php:91
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:91
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:91
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:268
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:463
+msgid ""
+"Enter a brief description or the keywords for this product, seperated by "
+"commas"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:66
+msgid "Enter the product title for product short description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-short-desc-template.php:86
+msgid "Enter the product keyword for product short description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:66
+msgid "Enter the focus keyword or topic of your product title."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:76
+msgid "Context"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-product-title-template.php:86
+msgid "Provide the context of your product title."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:66
+msgid "Enter the focus keyword or topic of your blog tags."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-related-tags-template.php:188
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit?"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:56
+msgid "Your Topics"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:66
+msgid "Enter the focus keyword or topic of your blog short story."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:71
+msgid "e.g. A Mysterious Island, A Journey of Discovery..."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-short-story-template.php:178
+msgid "Story Length"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:21
+msgid "Long desc"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:22
+msgid "Short desc"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:33
+msgid "Product Name"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:43
+msgid "Enter the product name of your product title."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:53
+msgid "Product Brief/ Comma separated keywords"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:63
+msgid "Provide the context/brief of your product."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:68
+msgid "e.g. mobile, laptop..."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:214
+msgid "Generate Product Title"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:243
+msgid "Enter the product title of your product description."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:248
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:442
+msgid "Enter Your product title here"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:263
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:458
+msgid "Provide the context of your product."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:376
+msgid "Content Length"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:413
+msgid "Generate Long Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:437
+msgid "Enter the title of your product."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:582
+msgid "Minimum content you want to generate."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-woocommerce-template.php:609
+msgid "Generate Short Description"
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:66
+msgid "Provide the content of your blog post."
+msgstr ""
+
+#: inc/Admin/View/Widgets/wrig-writegen-mode-template.php:122
+msgid "Maximum result you want to generate."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WriteGen"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themepure.net/writegen"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Writegen - ChatGPT-OpenAI Content Generator plugin is like having a "
+"creative writing assistant for your WordPress site. It taps into OpenAI's "
+"powerful language technology to help you effortlessly produce top-notch "
+"content. With this plugin, you can create blog posts, articles, product "
+"descriptions, and more without the hassle of extensive research and writing. "
+"It's content creation made easy and user-friendly."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themepure"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themepure.com"
+msgstr ""

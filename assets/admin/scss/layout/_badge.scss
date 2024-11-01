@@ -1,0 +1,20 @@
+@use '../utils/' as *;
+
+.#{$theme-prefix}-badge{
+    font-size: 11px;
+    font-weight: 500;
+    @extend %ff-roboto;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 6px 13px;
+    letter-spacing: 0.02em;
+
+    &-success{
+        color: #1B6243;
+        background-color: #DCF4E4;
+    }
+    &-danger{
+        color: #942B1F;
+        background-color: #F6E5E3;
+    }
+}

@@ -1,0 +1,19 @@
+{
+   "name": "themepure/reactplugin",
+   "description": "react startup plugin",
+   "type": "project",
+   "license": "GPL2",
+   "authors": [
+      {
+         "name": "Themepure",
+         "email": "rsfahim007@gmail.com"
+      }
+   ],
+   "minimum-stability": "dev",
+   "require": {},
+   "autoload": {
+      "psr-4": {
+         "Writegen\\": "./inc"
+      }
+   }
+}

@@ -1,0 +1,79 @@
+@use '../utils/' as *;
+
+.#{$theme-prefix}-tooltip{
+    $tool : &;
+    &-wrapper{
+        position: relative;
+        & span{
+            color: rgba($color: $black, $alpha: .3);
+            display: inline-block;
+            @extend %transition;
+            & svg{
+                @include transform(translateY(2px));
+            }
+        }
+        &:hover{
+            cursor: pointer;
+            & span{
+                color: var(--magicai-common-black);
+            }
+            #{$tool}{
+               
+                &-content{
+                    visibility: visible;
+                    opacity: 1;
+                    top: -78px;
+                }
+            }
+        }
+    }
+    &-content{
+        position: absolute;
+        top: -50px;
+        left: -29px;
+        width: 165px;
+        background-color: var(--magicai-common-white);
+        padding: 13px 20px 15px;
+        border-radius: 14px;
+        box-shadow: 0px 10px 30px rgba(4, 11, 17, 0.14);
+        visibility: hidden;
+        opacity: 0;
+        @extend %transition;
+
+        @media #{$md, $sm}{
+            left: auto;
+            right: -115px;
+        }
+
+        @media #{$xs}{
+            left: auto;
+            right: -126px;
+        }
+
+        &::after {
+            position: absolute;
+            content: "";
+            left: 35px;
+            bottom: 0;
+            width: 18px;
+            height: 18px;
+            background-color: var(--magicai-common-white);
+            @include transform(rotate(45deg) translateY(50%));
+
+            @media #{$md, $sm, $xs}{
+                left: auto;
+                right: 38%;
+            }
+            @media #{$xs}{
+                left: auto;
+                right: 41%;
+            }
+        }
+        & p{
+            font-size: 13px;
+            margin: 0;
+            @extend %ff-roboto;
+            color: var(--magicai-text-1);
+        }
+    }
+}

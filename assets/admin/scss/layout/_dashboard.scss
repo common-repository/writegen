@@ -1,0 +1,102 @@
+@use "../utils/" as *;
+
+/*----------------------------------------*/
+/*  Dashboard
+/*----------------------------------------*/
+
+.#{$theme-prefix}-dashboard {
+   &-area {
+      min-height: 100vh;
+      background-color: #f6f7fe;
+   }
+   &-topbar {
+      padding: 27px 50px 0;
+      background: #fff;
+      box-shadow: 0px 1.6px 3.5px 0px rgba(8, 19, 53, 0.1),
+         0px 0.3px 0.8px 0px rgba(8, 19, 53, 0.12);
+
+      @media #{$sm} {
+         padding-left: 28px;
+         padding-right: 28px;
+      }
+      @media #{$xs} {
+         padding-left: 25px;
+         padding-right: 25px;
+      }
+      & .wrig-logo {
+         & img {
+            width: 150px;
+         }
+      }
+   }
+   &-main-content {
+      padding: 28px 50px;
+
+      @media #{$sm} {
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+      @media #{$xs} {
+         padding-left: 10px;
+         padding-right: 10px;
+      }
+   }
+}
+
+.#{$theme-prefix}-tab {
+   &-btn {
+      color: #65676b;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 20px;
+      @extend %ff-inter;
+      position: relative;
+      padding: 12px 18px;
+      border: none;
+
+      @media #{$sm} {
+         padding-left: 11px;
+         padding-right: 11px;
+      }
+      @media #{$xs} {
+         padding-left: 7px;
+         padding-right: 7px;
+      }
+      &::after {
+         position: absolute;
+         content: "";
+         left: 0;
+         bottom: 0;
+         width: 0%;
+         height: 3px;
+         @include gradient((217deg, #1b4aef 0%, #2870ea 100%));
+         border-radius: 4px 4px 0px 0px;
+      }
+
+      &:not(:last-child) {
+         margin-right: 6px;
+
+         @media #{$xs} {
+            margin-right: 3px;
+         }
+      }
+
+      &.active-btn {
+         color: var(--magicai-theme-primary);
+
+         &::after {
+            width: 100%;
+         }
+      }
+   }
+}
+
+/* tab css here */
+.#{$theme-prefix}-dashboard-main-content {
+   .tab {
+      display: none;
+      &.active-tab {
+         display: block;
+      }
+   }
+}

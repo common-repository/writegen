@@ -1,0 +1,41 @@
+$colors: (
+    'common': (
+        'white': #ffffff,
+        'black-solid': #000,
+        'black': #222222,
+    ),
+    'yellow': (
+        '1': #FEF9E7,
+    ),
+    'pink': (
+        '1': #FFE9F2,
+    ),
+    'green': (
+        '1': #EAF9E3,
+    ),
+    'blue': (
+        '1': #3671FC,
+    ),
+    'heading': (
+        'primary': #222222,
+    ),
+    'grey': (
+        '1':#F6F7F9,
+    ),
+    'text': (
+        'body':#55585B,
+        '1':#6B7280,
+    ),
+    'theme': (
+        'primary': #3671FC,
+    ),
+    'border': (
+        'primary': #E6E6E7,
+        'secondary': #EAEAEC,
+    )
+);
+
+$white : #fff;
+$black : #222222;
+$theme-primary : #3671FC;
+$border-primary : #EAEBED;

@@ -1,0 +1,12 @@
+@use './mixins' as *;
+
+%ff-roboto{
+	font-family: var(--magicai-ff-roboto);
+}
+%ff-inter{
+	font-family: var(--magicai-ff-inter);
+}
+
+%transition{
+	@include transition();
+}

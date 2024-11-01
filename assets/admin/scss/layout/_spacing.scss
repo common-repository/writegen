@@ -1,0 +1,226 @@
+@use '../utils/' as *;
+
+.#{$theme-prefix}{
+	&-flex{
+		@include flexbox();
+	}
+	&-container{
+		--#{$theme-prefix}-gutter-x: 14px;
+		--#{$theme-prefix}-gutter-y: 0;
+		width: 100%;
+		padding-right: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+		padding-left: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+		margin-right: auto;
+		margin-left: auto;
+	}
+	&-row{
+		--#{$theme-prefix}-gutter-x: 14px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: calc(-0.5 * var(--#{$theme-prefix}-gutter-x));
+		margin-left: calc(-0.5 * var(--#{$theme-prefix}-gutter-x));
+
+		& > *{
+			box-sizing: border-box;
+			flex-shrink: 0;
+			width: 100%;
+			max-width: 100%;
+			padding-right: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+			padding-left: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+		}
+	}
+	&-col-6{
+		flex: 0 0 auto;
+		width: 50%;
+	}
+	&-col-4{
+		flex: 0 0 auto;
+		width: 33.33%;
+	}
+	&-col-12 {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+	&-gx-4 {
+		--#{$theme-prefix}-gutter-x: 4px;
+	}
+	&-gx-20 {
+		--#{$theme-prefix}-gutter-x: 20px;
+	}
+
+	&-d-flex {
+		display: flex !important;
+	}
+	&-flex-wrap {
+		flex-wrap: wrap;
+	}
+	&-flex-column {
+		flex-direction: column !important;
+	}
+	&-align-items-center {
+		align-items: center !important;
+	}
+	&-align-items-end {
+		align-items: flex-end !important;
+	}
+	&-justify-content-between {
+		justify-content: space-between !important;
+	}
+}
+  @media (min-width: 992px) {
+	.#{$theme-prefix}-container-2 {
+	  max-width: 860px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.#{$theme-prefix}-container-2 {
+	  max-width: 1094px;
+	}
+  }
+
+@media (min-width: 576px) {
+	.#{$theme-prefix}-col-sm-3 {
+	  flex: 0 0 auto;
+	  width: 25%;
+	}
+	.#{$theme-prefix}-col-sm-4 {
+	  flex: 0 0 auto;
+	  width: 33.33333333%;
+	}
+	.#{$theme-prefix}-col-sm-6 {
+	  flex: 0 0 auto;
+	  width: 50%;
+	}
+	.#{$theme-prefix}-col-sm-8 {
+	  flex: 0 0 auto;
+	  width: 66.66666667%;
+	}
+	.#{$theme-prefix}-col-sm-12 {
+	  flex: 0 0 auto;
+	  width: 100%;
+	}
+
+	.#{$theme-prefix}-d-sm-flex {
+		display: flex !important;
+	}
+  
+  }
+  @media (min-width: 768px) {
+	.#{$theme-prefix}-col-md-3 {
+	  flex: 0 0 auto;
+	  width: 25%;
+	}
+	.#{$theme-prefix}-col-md-4 {
+	  flex: 0 0 auto;
+	  width: 33.33333333%;
+	}
+	.#{$theme-prefix}-col-md-5 {
+		flex: 0 0 auto;
+		width: 41.66666667%;
+	  }
+	  .#{$theme-prefix}-col-md-6 {
+		flex: 0 0 auto;
+		width: 50%;
+	  }
+	  .#{$theme-prefix}-col-md-7 {
+		flex: 0 0 auto;
+		width: 58.33333333%;
+	  }
+
+	.#{$theme-prefix}-col-md-8 {
+	  flex: 0 0 auto;
+	  width: 66.66666667%;
+	}
+
+	.#{$theme-prefix}-col-md-12 {
+	  flex: 0 0 auto;
+	  width: 100%;
+	}
+  
+  }
+  @media (min-width: 992px) {
+	.#{$theme-prefix}-col-lg-3 {
+	  flex: 0 0 auto;
+	  width: 25%;
+	}
+	.#{$theme-prefix}-col-lg-4 {
+	  flex: 0 0 auto;
+	  width: 33.33333333%;
+	}
+	.#{$theme-prefix}-col-lg-5 {
+	  flex: 0 0 auto;
+	  width: 41.66666667%;
+	}
+	.#{$theme-prefix}-col-lg-6 {
+	  flex: 0 0 auto;
+	  width: 50%;
+	}
+	.#{$theme-prefix}-col-lg-8 {
+	  flex: 0 0 auto;
+	  width: 66.66666667%;
+	}
+	.#{$theme-prefix}-col-lg-9 {
+		flex: 0 0 auto;
+		width: 75%;
+	}
+	.#{$theme-prefix}-col-lg-12 {
+	  flex: 0 0 auto;
+	  width: 100%;
+	}  
+  }
+  @media (min-width: 1200px) {
+
+	.#{$theme-prefix}-col-xl-4 {
+	  flex: 0 0 auto;
+	  width: 33.33333333%;
+	}
+	.#{$theme-prefix}-col-xl-6 {
+		flex: 0 0 auto;
+		width: 50%;
+	}
+	.#{$theme-prefix}-col-xl-8 {
+	  flex: 0 0 auto;
+	  width: 66.66666667%;
+	}
+	.#{$theme-prefix}-col-xl-9 {
+	  flex: 0 0 auto;
+	  width: 75%;
+	}
+	.#{$theme-prefix}-col-xl-12 {
+	  flex: 0 0 auto;
+	  width: 100%;
+	}
+  
+  }
+  @media (min-width: 1400px) {
+
+	.#{$theme-prefix}-col-xxl-4 {
+	  flex: 0 0 auto;
+	  width: 33.33333333%;
+	}
+	.#{$theme-prefix}-col-xxl-8 {
+	  flex: 0 0 auto;
+	  width: 66.66666667%;
+	}
+	.#{$theme-prefix}-col-xxl-9 {
+	  flex: 0 0 auto;
+	  width: 75%;
+	}
+	.#{$theme-prefix}-col-xxl-12 {
+	  flex: 0 0 auto;
+	  width: 100%;
+	}
+  
+  }
+
+$spaces : (25, 30, 35, 50, 55);
+
+@each $size in $spaces {
+	.mb-#{$size}{
+		margin-bottom: #{$size}px;
+	}
+}
+
+.w-full{
+	width: 100%;
+}

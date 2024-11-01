@@ -1,0 +1,110 @@
+@use '../utils/' as *;
+
+/* Intro Css Start */
+
+.#{$theme-prefix}-intro{
+    $self : &;
+
+    &-banner{
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img{
+            border-radius: 6px;
+        }
+    }
+
+    &-item{
+        position: relative;
+        padding: 48px 40px 56px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+        border: 1px solid #E0E2E6;
+        background: var(--magicai-common-white);
+        box-shadow: 0px 0.5px 1px 0px rgba(218, 220, 224, 0.40);
+
+        @media #{$lg}{
+            padding: 38px 30px 46px;
+        }
+
+        @media #{$sm}{
+            padding: 28px 30px 36px;
+        }
+        @media #{$xs}{
+            padding: 40px 24px 40px;
+        }
+
+        &-big{
+            #{$self}{
+                &-content{
+                    & p{
+                        padding-right: 60px;
+
+                        @media #{$sm, $xs}{
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        & .magicai-btn{
+            width: 170px;
+            text-align: center;
+            padding: 8px 10px;
+        }
+    }
+    &-icon{
+        margin-right: 30px;
+
+        @media #{$xs}{
+            margin-bottom: 30px;
+            margin-right: 25px;
+        }
+    }
+    &-title{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        @extend %ff-inter;
+        @media #{$xs}{
+            font-size: 20px;
+        }
+    }
+    &-content{
+        & p{
+            margin-bottom: 32px;
+            @extend %ff-inter;
+            color: #777778;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+
+            @media #{$xs}{
+                font-size: 15px;
+            }
+        }
+    }
+    &-thumb{
+        position: absolute;
+        top: 5%;
+        right: 8%;
+
+        @media #{$md}{
+            position: static;
+            margin-top: 45px;
+            margin-left: 45px;
+        }
+        @media #{$sm, $xs}{
+            position: static;
+            margin-top: 45px;
+        }
+
+        & img{
+            @media #{$xs}{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+@use '../utils/' as *;
+
+/*----------------------------------------*/
+/*  2.3 Buttons
+/*----------------------------------------*/
+.#{$theme-prefix}-btn{
+	display: inline-block;
+	font-size: 14px;
+	color: var(--magicai-text-1);
+	font-weight: 500;
+	background-color: var(--magicai-common-white);
+	border: 1px solid var(--magicai-border-primary);
+	border-radius: 8px;
+	padding: 10px 70px;
+	@extend %ff-roboto;
+	@extend %transition;
+
+	&:hover{
+		background-color: var(--magicai-common-black);
+		border-color: var(--magicai-common-black);
+		color: var(--magicai-common-white);
+	}
+
+
+	&-fill{
+		border: 0;
+		color: var(--magicai-common-white);
+		background-color: var(--magicai-theme-primary);
+
+		&:hover{
+			background-color: var(--magicai-common-black);
+			border-color: var(--magicai-common-black);
+			color: var(--magicai-common-white);
+		}
+	}
+
+	&-big{
+		font-size: 13px;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #9C9DA0;
+		@extend %ff-inter;
+		display: inline-block;
+		padding: 9px 25px 10px;
+		border: 1px solid #ECECED;
+		border-radius: 6px;
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
+		@extend %transition;
+
+		&::after{
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			@include gradient((180deg, #6F71FF 0%, #574DFC 100%));
+			visibility: hidden;
+			opacity: 0;
+			z-index: -1;
+			@extend %transition;
+		}
+
+		& svg{
+			margin-left: 2px;
+			@include transform(translateY(3px));
+		}
+
+		&:hover{
+			color: var(--magicai-common-white);
+
+			&::after{
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+
+
+		&-fill{
+			border: 0;
+			color: var(--magicai-common-white);
+			box-shadow: 0px 1px 2px rgba(9, 24, 151, 0.4);
+			&::after{
+				opacity: 1;
+				visibility: visible;
+			}
+
+			&:hover{
+				&::after{
+					opacity: .9;
+				}
+			}
+		}
+		&-border{
+			border: 0;
+			overflow: hidden;
+			color: var(--magicai-theme-primary);
+			&::after{
+				visibility: visible;
+				opacity: 1;
+				z-index: -2;
+			}
+
+			&::before{
+				position: absolute;
+				content: '';
+				left: 2px;
+				top: 2px;
+				width: calc(100% - 4px);
+				height: calc(100% - 4px);
+				background-color: var(--magicai-common-white);
+				z-index: -1;
+				@extend %transition;
+				border-radius: 4px;
+			}
+
+			&:hover{
+				color: var(--magicai-common-white);
+				&::before{
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+		}
+	}
+}
+
+
+.#{$theme-prefix}-toggle-btn{
+	& input{
+		display: none;
+	}
+	& label{
+		& span{
+			display: inline-block;
+			width: 34px;
+			height: 14px;
+			background-color: #D4D0FF;
+			border-radius: 7px;
+			position: relative;
+			&::after{
+				position: absolute;
+				content: '';
+				left: 0;
+				top: -3px;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				background-color: #fff;
+				box-shadow: 0px 1px 2px rgba(9, 24, 151, 0.40);
+			}
+
+			&.is-checked{
+				&::after{
+					left: auto;
+					right: 0;
+					background-color: #574DFC;
+				}
+			}
+		}
+
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
+
+.magicai-writting-history-btn{
+	font-size: 14px;
+	display: inline-block;
+	color: #67676B;
+	@extend %ff-inter;
+	border-radius: 6px;
+	border: 1px solid #ECEEF4;
+	background: #FFF;
+	box-shadow: 0px 1px 1px 0px rgba(32, 37, 60, 0.04);
+	padding: 6px 15px;
+
+	@media #{$xs}{
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
+}
+
+.#{$theme-prefix}-api-btn{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--magicai-common-white);
+	border-radius: 6px;
+	padding: 10px 22px;
+	background-color: var(--magicai-theme-primary);
+	@extend %ff-inter;
+	@extend %transition;
+	margin-bottom: 10px;
+	&:hover{
+		box-shadow: 0px 20px 30px 0px rgba(32, 37, 60, 0.1);
+	}
+
+	&.is-violet{
+		background: var(--magicai-theme-primary);
+		@include gradient((180deg, #9D3CFF 0%, #7110D1 100%));
+		margin-right: 10px;
+		border: none;
+	}
+	&.is-pink{
+		border-radius: 4px;
+		background: var(--magicai-theme-primary);
+		border: none;
+		@include gradient((180deg, #EF2CC4 0%, #B90691 100%));
+	}
+}
